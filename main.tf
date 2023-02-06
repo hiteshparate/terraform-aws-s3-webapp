@@ -12,7 +12,7 @@ provider "aws" {
 }
 
 module "s3-webapp" {
-  source  = "app.terraform.io/self-learning/s3-webapp/aws"
+  source  = "https://app.terraform.io/app/sellf-learning/registry/modules/private/sellf-learning/s3-webapp/aws/1.0.0"
   name    = var.name
   region  = var.region
   prefix  = var.prefix
